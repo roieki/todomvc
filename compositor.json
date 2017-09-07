@@ -1,0 +1,147 @@
+{
+  "name": "roieki/todomvc",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "pop",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://todomvc.com",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/roieki/todomvc",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/todomvc",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "todomvc",
+      "subhead": "Helping you select an MV* framework - Todo apps for Backbone.js, Ember.js, AngularJS, and many more",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "todomvc: Helping you select an MV* framework - Todo apps for Backbone.js, Ember.js, AngularJS, and many more",
+          "url": "http://todomvc.com"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "roieki",
+          "repo": "todomvc"
+        }
+      ],
+      "text": "v0.1.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1><img src=\"media/logo.png\"></h1>\n<blockquote>\n<p>Helping you select an MV* framework</p>\n</blockquote>\n<h3><a href=\"http://todomvc.com\">Website</a>&#xA0;&#xA0;&#xA0;&#xA0;<a href=\"http://blog.tastejs.com\">Blog</a>&#xA0;&#xA0;&#xA0;&#xA0;<a href=\"http://tastejs.com\">TasteJS</a></h3>\n<p><a href=\"https://travis-ci.org/tastejs/todomvc\"><img src=\"https://travis-ci.org/tastejs/todomvc.svg\"></a></p>\n<p>Developers these days are spoiled with choice when it comes to selecting an MV* framework for structuring and organizing JavaScript web apps.</p>\n<p>Backbone, Ember, AngularJS... the list of new and stable solutions goes on and on, but just how do you decide on which to use in a sea of so many options?</p>\n<p>To help solve this problem, we created TodoMVC - a project which offers the same Todo application implemented using MV<em> concepts in most of the popular JavaScript MV\\</em> frameworks of today.</p>\n<h2>Team</h2>\n<p>TodoMVC would not be possible without a strong team of <a href=\"https://github.com/tastejs/todomvc/contributors\">contributors</a> helping push the project forward each day. In addition, we have a core project team composed of:</p>\n<h4><a href=\"http://github.com/addyosmani\">Addy Osmani</a> - Founder/Lead</h4>\n<p><img src=\"http://www.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275.png?s=40\">\n  Addy is a Software Engineer at Google who originally created TodoMVC. He oversees the project direction, maintenance and organizes the planning and development efforts of the team.</p>\n<h4><a href=\"https://github.com/sindresorhus\">Sindre Sorhus</a> - Lead Developer</h4>\n<p><img src=\"http://www.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9.png?s=40\">\nSindre is a Web Developer who leads core development, quality control and application design for the project. His engineering contributions have helped us ensure consistency and best practices are enforced wherever possible. Sindre also leads up development of the TodoMVC application spec.</p>\n<h4><a href=\"https://github.com/passy\">Pascal Hartig</a> - Developer</h4>\n<p><img src=\"http://www.gravatar.com/avatar/be451fcdbf0e5ff07f23ed16cb5c90a3.png?s=40\">\nPascal is a Software Engineer at Twitter with a deep passion for consistency. He watches pull requests and helps developers getting their contributions integrated with TodoMVC.</p>\n<h4><a href=\"https://github.com/stephenplusplus\">Stephen Sawchuk</a> - Developer</h4>\n<p><img src=\"https://avatars3.githubusercontent.com/u/723048?v=2&amp;s=40\">\nStephen is a Front-end Engineer at Quicken Loans that cares about improving the maintainability and developer experience of open-source projects. His recent contributions include helping us move all apps over to using Bower and implementing the new information bar.</p>\n<h4><a href=\"https://github.com/colineberhardt\">Colin Eberhardt</a> - Developer</h4>\n<p><img src=\"https://secure.gravatar.com/avatar/73bba00b41ff1c9ecc3ee29487bace7d?s=40\">\nColin is a software consultant at Scott Logic who is passionate about all software - from JavaScript to Java, and C# to Objective-C. His recent contribution to the project has been a fully automated test suite.</p>\n<h4><a href=\"https://github.com/samccone\">Sam Saccone</a> - Developer</h4>\n<p><img src=\"http://en.gravatar.com/userimage/602125/f2f1d93164ec62b527f0398c65b2d1f3.jpg?size=40\">\nSam is a Software Engineer at Google who is driven by an endless desire to create, solve problems, and improve developers&apos; lives.</p>\n<h4><a href=\"https://github.com/arthurvr\">Arthur Verschaeve</a> - Developer</h4>\n<p><img src=\"https://en.gravatar.com/avatar/e34daab0d2e344219adb5234198269c5?size=40\">\nArthur is an open-source fanboy from Belgium. He is passionate about developer tooling and all things JavaScript.</p>\n<h4><a href=\"https://github.com/gf3\">Gianni Chiappetta</a> - Logo designer</h4>\n<p><img src=\"http://www.gravatar.com/avatar/4b0209ae3652cc5a7d53545e759fbe39.png?s=40\">\nGianni is a programmer and designer currently working as the Chief Rigger at MetaLab.</p>\n<h2>Disclaimer</h2>\n<p><img src=\"media/icon-small.png\"></p>\n<p>TodoMVC has been called many things including the &apos;Speed-dating&apos; and &apos;Rosetta Stone&apos; of MV* frameworks. Whilst we hope that this project is able to offer assistance in deciding what frameworks are worth spending more time looking at, remember that the Todo application offers a limited view of what a framework may be capable of.</p>\n<p>It is meant to be used as a gateway to reviewing how a basic application using a framework may be structured and we heavily recommend investing time researching a solution in more depth before opting to use it.</p>\n<p>Also, please keep in mind that TodoMVC is not the perfect way to compare the size of different frameworks. We intentionally use the unminified versions to make reading the source code easier.</p>\n<h2>Getting Involved</h2>\n<p>Whilst we enjoy implementing and improving existing Todo apps, we&apos;re always interested in speaking to framework authors (and users) wishing to share Todo app implementations in their framework/solution of choice.</p>\n<p>Check out our <a href=\"contributing.md\">contribution docs</a> for more info.</p>\n<h2>License</h2>\n<p>Everything in this repo is MIT License unless otherwise specified.</p>\n<p>MIT &#xA9; Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/roieki/todomvc",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/roieki",
+          "text": "roieki"
+        }
+      ]
+    }
+  ]
+}
